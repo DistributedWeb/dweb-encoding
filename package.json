@@ -1,9 +1,9 @@
 {
-  "name": "dat-encoding",
-  "version": "5.0.1",
+  "name": "dweb-encoding",
+  "version": "1.0.0",
   "license": "MIT",
-  "repository": "juliangruber/dat-encoding",
-  "description": "Encode and decode Dat links",
+  "repository": "juliangruber/dweb-encoding",
+  "description": "dWeb encoding library",
   "dependencies": {
     "safe-buffer": "^5.0.1"
   },
