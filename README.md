@@ -1,14 +1,14 @@
 
-# dweb-encoding
+# dat-encoding
 
-[DWeb](http://dweb-data.com/)'s way of encoding and decoding dweb links.
+[Dat](http://dat-data.com/)'s way of encoding and decoding dat links.
 
-[![Build Status](https://travis-ci.org/juliangruber/dweb-encoding.svg?branch=master)](https://travis-ci.org/juliangruber/dweb-encoding)
+[![Build Status](https://travis-ci.org/juliangruber/dat-encoding.svg?branch=master)](https://travis-ci.org/juliangruber/dat-encoding)
 
 ## Example
 
 ```js
-var encoding = require('dweb-encoding')
+var encoding = require('dat-encoding')
 
 var link = '6161616161616161616161616161616161616161616161616161616161616161'
 var buf = encoding.decode(link)
@@ -28,7 +28,7 @@ If `buf` is already a string, checks if it's valid and returns it.
 ### .decode(str)
 ### .toBuf(str)
 
-Decode `str` into its binary representation. Also supports `dweb://` and `dweb.com/` links. Throws if the raw link isn't 64 bytes of base64.
+Decode `str` into its binary representation. Also supports `dat://` and `dat.com/` links. Throws if the raw link isn't 64 bytes of base64.
 
 If `str` is already a buffer, checks if it's valid and returns it.
 
