@@ -1,6 +1,6 @@
 {
   "name": "dweb-encoding",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "license": "MIT",
   "repository": "juliangruber/dat-encoding",
   "description": "dWeb encoding library.",
